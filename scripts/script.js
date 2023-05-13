@@ -3,12 +3,6 @@ const list = document.querySelector('.list');
 const textBox = document.querySelector('.text-box');
 const tasks = document.querySelectorAll('.task');
 
-const task = document.createElement("div");
-task.classList.add('task');
-const text = document.createElement("div");
-const deleteButton = document.createElement("div");
-task.append(text);
-
 addButton.addEventListener('click', () => {
     const text = textBox.value;
     if (text !== "") {
